@@ -150,7 +150,7 @@ ggmap(Twin_cities2) +
              aes(x = Longitude, y = Latitude, color = `Ownership Type`),
              size = 0.9) +
   theme_map() +
-  theme(legend.background = element_blank()) +
+  theme(legend.background = element_blank()) 
 ```
 
   5. Add a point to the map that indicates Macalester College and label it appropriately. There are many ways you can do think, but I think it's easiest with the `annotate()` function (see `ggplot2` cheatsheet).
